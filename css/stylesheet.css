@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+.bir {
+    background-color: #e28525;
+    color: #fff;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.bir .btn {
+    color: #e28525;
+}
+
+.ikki {
+    background-color: #016972;
+    color: #fff;
+}
+
+.ikki .btn {
+    color: #016972;
+}
+
+.uch {
+    background-color: #00403f;
+    color: #fff;
+    border-radius:10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.uch .btn {
+    color: #00403f;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    padding: 30px;
+}
+
+.card img {
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .bir {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .uch {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card {
+        padding: 45px;
+    }
+
+    .card p {
+        margin-bottom: 80px;
+    }
+}
