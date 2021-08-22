@@ -12,6 +12,7 @@ h3 {
 
 p {
     font-size: 15px;
+    line-height: 25px;
 }
 
 .btn {
@@ -68,6 +69,7 @@ p {
 
 .card {
     padding: 30px;
+
 }
 
 .card img {
@@ -83,7 +85,7 @@ p {
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
     .container {
         display: flex;
         align-items: center;
